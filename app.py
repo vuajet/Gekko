@@ -17,7 +17,7 @@ if OPENAI_API_KEY:
     os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 
 # Ingest and build vector store once
-@st.experimental_singleton
+@st.cache_resource
 def build_retriever():
     with st.spinner("Loading and embedding documents…"):
         docs = load_and_chunk()
