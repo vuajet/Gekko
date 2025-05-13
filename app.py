@@ -32,7 +32,7 @@ GREETINGS = {"hi", "hello", "hey"}
 THANK_YOU = {"thank you", "thanks", "thankyou", "thx", "thank u"}
 
 # Streamlit UI elements
-st.title("🦎 Gecko Insurance Chatbot")
+st.title("🦎 Hi! I'm Gekko - Your AI Insurance Advisor")
 st.write("Ask me anything about GEICO’s insurance documentation across all lines of business.")
 
 # Initialize chat history
