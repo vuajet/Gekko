@@ -6,3 +6,4 @@ openai
 chromadb
 beautifulsoup4
 tiktoken
+protobuf>=3.20.0,<3.21.0
